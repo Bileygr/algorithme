@@ -13,5 +13,5 @@ def crypter(chaine_de_caractere):
                 chaine_de_caractere_crypte += alphabet[r]
     return chaine_de_caractere_crypte
 
-chaine_de_caractere = input("Veuillez saisir la chaine de caractere que vous voulez crypter: ")
-print("Chaine de caractere crypte:",crypter(chaine_de_caractere))
+#chaine_de_caractere = input("Veuillez saisir la chaine de caractere que vous voulez crypter: ")
+#print("Chaine de caractere crypte:",crypter(chaine_de_caractere))

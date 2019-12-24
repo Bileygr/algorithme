@@ -1,5 +1,5 @@
 from random import randint
-characters="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz/1234567890-=àç^è;é.,\!@#$%?&*()_+ÀÇ¨È:É"
+characters="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz/1234567890-=^;.,\!@#$%?&*()_+:"
 characters_length = len(characters)
 password=""
 i=0

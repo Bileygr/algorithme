@@ -1,6 +1,6 @@
-# Cet algorithme permet de crypter des chaines de caractere.
+# Cet algorithme permet de d√©crypter des chaines de caractere.
 
-def crypter(chaine_de_caractere):
+def decrypter(chaine_de_caractere):
     alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
     cle = 11
     chaine_de_caractere = chaine_de_caractere.upper()
@@ -9,9 +9,9 @@ def crypter(chaine_de_caractere):
     for caractere in chaine_de_caractere:
         for i in range (len(alphabet)):
             if caractere == alphabet[i]:
-                r = (i*cle)%26
+                r = (i/cle)%26
                 chaine_de_caractere_crypte += alphabet[r]
     return chaine_de_caractere_crypte
 
 chaine_de_caractere = raw_input("Veuillez saisir la chaine de caractere que vous voulez crypter: ")
-print "Chaine de caractËre cryptÈ:",crypter(chaine_de_caractere)
+print "Chaine de caract√®re crypt√©:",crypter(chaine_de_caractere)
